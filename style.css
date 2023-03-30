@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(224, 210, 192);
+    font-family: monospace;
+    margin-top: 3 rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
