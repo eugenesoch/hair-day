@@ -18,3 +18,6 @@ h2 {
 p {
     font-size: 0.8rem;
 }
+#footer {
+    display: inline-block;
+}
