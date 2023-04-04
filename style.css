@@ -1,23 +1,144 @@
 body {
-    background-color: rgb(224, 210, 192);
-    font-family: monospace;
-    margin-top: 3 rem;
-    margin-bottom: 3rem;
-    margin-left: 5%;
-    margin-right: 5%;
+  background-color: #e0d2c0;
+  font-family: "stolzl", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin-bottom: 1rem;
+  line-height: 1.1;
 }
 
 h1 {
-    font-size: 3rem;
+  font-size: calc(0.005*100vw + 30px);
+}
+article h1 {
+  color: white;
+}
+article p {
+  color: white;
 }
 h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 p {
-    font-size: 0.8rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
-#footer {
-    display: inline-block;
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 8rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav li {
+  padding-left: 2em;
+  padding-right: 2em;
+  display: inline-block;
+  color: rgb(35, 35, 35);
+  height: 110%;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+nav li:hover {
+  color: #d0604c;
+  font-style: italic;
+}
+
+section {
+  display: flex;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 3em;
+}
+
+article {
+  flex: 1;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+footer {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+footer div {
+  flex: 1;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+button {
+  font: inherit;
+  text-transform: uppercase;
+  background-color: #d0604c;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+#hero {
+  background-color: white;
+  filter: drop-shadow(1em 1em 0px #d0604c);
+  display: flex;
+  overflow: hidden;
+
+}
+
+#split-left {
+  flex: 0 0 50%;
+  vertical-align: middle;
+
+}
+#split-right {
+  flex: 1;
+}
+.hero-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
