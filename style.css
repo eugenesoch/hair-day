@@ -78,6 +78,16 @@ nav li:active {
 
 }
 
+body.home a.home:link,
+body.about a.about:link,
+body.gallery a.gallery:link,
+body.book a.book:link
+{
+  color: #d0604c!important;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
 section {
   display: flex;
   padding-left: 1em;
@@ -149,3 +159,4 @@ button {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
