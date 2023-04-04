@@ -49,6 +49,8 @@ header > img {
 }
 
 nav ul {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   text-align: center;
   margin-top: 3rem;
@@ -58,9 +60,6 @@ nav ul {
 }
 
 nav li {
-  padding-left: 2em;
-  padding-right: 2em;
-  display: inline-block;
   color: rgb(35, 35, 35);
   height: 110%;
   font-size: 1.1rem;
@@ -68,7 +67,15 @@ nav li {
 }
 nav li:hover {
   color: #d0604c;
-  font-style: italic;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+
+}
+nav li:active {
+  color: #d0604c;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+
 }
 
 section {
